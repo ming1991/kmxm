@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/message_dialog_bg"
+              android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp52"
+            android:background="#7f7f7f">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="@string/please"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp20"/>
+
+        </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp5"
+            android:text=" "
+            android:textColor="#7fffffff"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp5"
+            android:text=" "
+            android:textColor="#7fffffff"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp5"
+            android:text=" "
+            android:textColor="#7fffffff"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp5"
+            android:text=" "
+            android:textColor="#7fffffff"
+            />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f757575"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/alipay_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginBottom="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginRight="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp10"
+            android:paddingLeft="@dimen/dp12"
+            android:background="#7f757575"
+            android:hint="@string/alipay"
+            android:maxLines="1"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:textColorHint="#7fffffff"
+            android:textSize="@dimen/sp16"/>
+
+        <EditText
+            android:id="@+id/book_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginRight="@dimen/dp20"
+            android:paddingLeft="@dimen/dp12"
+            android:gravity="center_vertical"
+            android:background="#7f757575"
+            android:hint="@string/book_name"
+            android:maxLines="1"
+            android:textColor="#fff"
+            android:textColorHint="#7fffffff"
+            android:textSize="@dimen/sp16"/>
+
+        <TextView
+            android:id="@+id/open"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp45"
+            android:layout_marginBottom="@dimen/dp15"
+            android:layout_marginLeft="@dimen/dp25"
+            android:layout_marginRight="@dimen/dp25"
+            android:layout_marginTop="@dimen/dp15"
+            android:background="@drawable/sure_bg"
+            android:gravity="center"
+            android:text="@string/sure"
+            android:textColor="@color/btn_text_selector"
+            android:textSize="@dimen/sp16"/>
+    </LinearLayout>
+</LinearLayout>
+
+

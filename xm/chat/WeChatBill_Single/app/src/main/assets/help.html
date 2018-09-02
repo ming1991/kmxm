@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="js cssanimations">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Amaze UI Widget</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <link rel="stylesheet" href="amazeui.min.css">
+</head>
+<body class="am-with-fixed-navbar">
+<div data-am-widget="list_news" class="am-list-news am-list-news-default am-no-layout"
+     style="margin-bottom:15px">
+
+    <div class="am-list-news-hd am-cf">
+        <a>
+            <h2>第一步：安装CA证书</h2>
+        </a>
+    </div>
+
+    <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default am-no-layout"
+             data-am-paragraph="{ tableScrollable: true, pureview: true }">
+        <p class="paragraph-default-p">第一次进入程序需要安装CA证书以便进行HTTPS抓包（原理同fiddler，MITM中间人）。
+        </p>
+        <p>
+            屏幕向右侧滑拉出侧滑菜单(或点击屏幕左上角的三条杠的图标弹出侧滑菜单)，点击“安装证书”；请点击确认按钮，
+            屏幕吐司显示“已安装”即为成功。(注：如果手机未设置锁屏图案或密码则无法安装证书，请先添加任意一种安全屏幕锁定类型)
+
+            <img class="alignnone size-full wp-image-460" src="install_certificate1.jpg" alt="install_certificate1"
+                 data-am-pureviewed="1">
+        </p>
+    </article>
+
+    <div class="am-list-news-hd am-cf">
+        <a>
+            <h2>第二步：设置系统代理</h2>
+        </a>
+    </div>
+
+    <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default am-no-layout"
+             data-am-paragraph="{ tableScrollable: true, pureview: true }">
+        <p class="paragraph-default-p">通过设置系统代理可以实现抓取别的APP的请求包。
+        </p>
+        <p>
+            在侧滑菜单里点击“设置系统代理”，打开手机的WIFI设置，选中你要链接的WIFI，修改该网络，将代理由
+            “无”改成“手动”，主机名：127.0.0.1，端口号改为8888(有些手机是长按该网络，弹出dialog后选中修改网络，
+            在该网络详情界面点击“显示高级选项”，方可修改)
+
+            <img class="alignnone size-full wp-image-460" src="xiugaiwifi1.jpg" alt="xiugaiwifi1"
+                 data-am-pureviewed="1">
+        </p>
+    </article>
+
+
+    <div class="am-list-news-hd am-cf">
+        <a>
+            <h2>第三步：开启无障碍模式</h2>
+        </a>
+    </div>
+
+    <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default am-no-layout"
+             data-am-paragraph="{ tableScrollable: true, pureview: true }">
+        <p class="paragraph-default-p">开启该服务，打开微信后，微信将以一定的频率自动刷新。
+        </p>
+        <p>
+            在侧滑菜单里点击“开启微信无障碍服务”后，跳转至系统相关设置界面，开启“微信无障碍服务”
+
+            <img class="alignnone size-full wp-image-460" src="startservice1.jpg" alt="startservice1"
+                 data-am-pureviewed="1">
+        </p>
+    </article>
+
+    <div class="am-list-news-hd am-cf">
+        <a>
+            <h2>第四步：打开微信客户端</h2>
+        </a>
+    </div>
+
+    <article data-am-widget="paragraph" class="am-paragraph am-paragraph-default am-no-layout"
+             data-am-paragraph="{ tableScrollable: true, pureview: true }">
+        <p>
+            打开微信客户端(主页面)，开始刷新数据
+
+            <img class="alignnone size-full wp-image-460" src="wechat1.jpg" alt="wechat1"
+                 data-am-pureviewed="1">
+        </p>
+    </article>
+</div>
+</body>
+</html>

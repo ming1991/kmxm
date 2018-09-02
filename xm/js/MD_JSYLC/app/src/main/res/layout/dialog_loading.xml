@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kmjd.jsylc.zxh.widget.loading.AVLoadingIndicatorView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/avloadingindicatiorView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>

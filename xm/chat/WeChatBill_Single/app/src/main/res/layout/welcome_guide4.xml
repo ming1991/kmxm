@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/welcome_guide5"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <TextView
+            android:id="@+id/title_welcome_guide1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title_welcome_guide4"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp16"/>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:text="@string/welcome_guide4_detail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp10"
+        android:layout_marginBottom="@dimen/dp10"
+        android:text="@string/welcome_guide4_notice"/>
+    <ImageView
+        android:id="@+id/photoview4"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/startservice"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"
+        android:background="@color/gray"
+        android:layout_margin="@dimen/dp5">
+    </View>
+
+    <RelativeLayout
+        android:id="@+id/rl_nobarrier_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp5"
+        android:layout_margin="@dimen/dp5">
+        <TextView
+            android:id="@+id/tv_nobarrier_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去开启"
+            android:textColor="@color/colorPrimary"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/iv_nobarrier_service"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/right_arrow"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/next4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp10"
+        android:background="@drawable/settting_btn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dp10"
+            android:text="@string/welcome_guide_next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp16"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao' //数据库操作
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.kmjd.jsylc.zxh"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 180817
+        versionName "8.8.17"
+        flavorDimensions getBuildToolsVersion()
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        lintOptions {
+            checkReleaseBuilds false
+            abortOnError false
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [eventBusIndex: 'com.kmjd.jsylc.zxh.utils.MyEventBusIndex']
+            }
+        }
+
+    }
+    buildTypes {
+        debug {
+            /*如果代码压缩在您增量构建应用时非常重要，请尝试适用于 Gradle 的 Android 插件内置的试用代码压缩器。
+            与 ProGuard 不同，此压缩器支持 Instant Run。
+            您也可以使用与 ProGuard 相同的配置文件来配置 Android 插件压缩器。
+            但是，Android 插件压缩器不会对您的代码进行混淆处理或优化，它只会删除未使用的代码。
+            因此，您应该仅将其用于调试构建，并为发布构建启用 ProGuard，以便对发布 APK 的代码进行混淆处理和优化。
+            要启用 Android 插件压缩器，只需在 "debug" 构建类型中将 useProguard 设置为 false（并保留 minifyEnabled 设置 true）：*/
+            minifyEnabled false
+            useProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            //允许混淆
+            minifyEnabled true
+            //去除无用资源
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro', 'proguard-rules-default.pro'
+            //修改打包后的apk的名字
+            android.applicationVariants.all {
+                variant ->
+                    variant.outputs.all {
+                        outputFileName = "JSYCL-简-正-${variant.versionName}.apk"
+                    }
+            }
+        }
+    }
+
+    productFlavors {
+        qh360 {
+            ndk {
+                abiFilters "armeabi","armeabi-v7a","arm64-v8a"
+            }
+        }
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [CHANNEL_VALUE: name]
+        }
+    }
+    repositories {
+        flatDir { dirs 'libs' }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    //黄油刀（编译时生成JAVA代码编译成字节码）
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    //黄油刀的自定义注释处理
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //json处理
+    implementation 'com.alibaba:fastjson:1.2.41'
+    //内存分析
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    //内存分析
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    //x5内核
+    implementation files('libs/tbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025.jar')
+    //事件处理
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    annotationProcessor 'org.greenrobot:eventbus-annotation-processor:3.1.1'
+    //图片加载
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    //网络请求
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    //网络请求
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    //网络请求
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    //rxandroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    //rxjava
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.5'
+    //数据库操作
+    implementation 'org.greenrobot:greendao:3.2.2'
+    //数据库操作
+    implementation 'org.greenrobot:greendao-generator:3.2.2'
+    //数据库操作
+//    compile 'net.zetetic:android-database-sqlcipher:3.5.1'
+    //html解析
+    implementation 'org.jsoup:jsoup:1.11.2'
+    //rsa加密第三方
+    implementation files('libs/commons-codec-1.9.jar')
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    //rxbinding
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    //阿里云播放
+    implementation(name: 'AlivcReporter-1.1', ext: 'aar')
+    implementation(name: 'AlivcPlayer-3.4.5', ext: 'aar')
+}

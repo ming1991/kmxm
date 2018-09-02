@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#393839</color>
+    <color name="colorPrimary99">#99393839</color>
+    <color name="colorPrimary88">#88393839</color>
+    <color name="colorPrimary33">#33393839</color>
+    <color name="ma_rg_b">#0657DD</color>
+    <color name="colorPrimaryDark">#313031</color>
+    <color name="colorPrimaryDark99">#99313031</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="yellow">#FFEE00</color>
+    <color name="gray">#cdcdcd</color>
+    <color name="gray99">#99cdcdcd</color>
+    <color name="c424D5F">#66424D5F</color>
+    <color name="gray66">#66cdcdcd</color>
+    <color name="green">#04BC02</color>
+    <color name="black">#000000</color>
+    <color name="rg_b">#2965FF</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="drawerTextColor">#33b5e5</color>
+    <color name="btnpressed">#FF106EE9</color>
+    <color name="btnnormal">#108EE9</color>
+    <color name="btninvalid">#66ccf5</color>
+    <color name="light_grey">#ffbebebe</color>
+</resources>

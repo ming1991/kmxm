@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        applicationId "com.md.jsyxzs_cn.zym_xs"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 20180620
+        versionName "3.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        flavorDimensions getBuildToolsVersion()
+    }
+
+
+
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+
+            //去除无用资源
+            shrinkResources true
+            //允许混淆
+            minifyEnabled true
+
+            /*这行代码定义了混淆规则由两部分构成：前者是 SDK 提供的默认混淆文件，后者是开发者自定义混淆规则的地方。*/
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //自定义输出配置
+            android.applicationVariants.all {
+                variant ->
+                    variant.outputs.each {
+                        output ->
+                            def outputFile = output.outputFile
+                            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                                def fileName = "jsyxzs_cn_t${defaultConfig.versionCode}_${variant.productFlavors[0].name}.apk"
+                                output.outputFile = new File(outputFile.parent, fileName)
+                            }
+                    }
+            }
+
+            //高版本gradle自定义输出
+//            android.applicationVariants.all {
+//                variant ->
+//                    variant.outputs.all {
+//                        outputFileName = "jsyxzs_v${defaultConfig.versionName}_${variant.productFlavors[0].name}.apk"
+//                    }
+//            }
+
+        }
+
+    }
+
+    productFlavors {
+        qh360 {
+            dimension getBuildToolsVersion()
+        }
+        wandoujia {
+            dimension getBuildToolsVersion()
+        }
+        productFlavors.all { flavor ->
+            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile project(':calenderlibrary')
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'pub.devrel:easypermissions:0.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile files('libs/commons-codec-1.9.jar')
+}

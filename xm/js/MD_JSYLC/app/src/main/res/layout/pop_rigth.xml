@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/qp_get_api_status"
+        android:layout_width="@dimen/dp205"
+        android:layout_height="wrap_content"
+        android:background="@drawable/maintain_popupwindow_background"
+        android:gravity="start|center"
+        android:lineSpacingMultiplier="1.1"
+        android:paddingBottom="@dimen/dp5"
+        android:paddingLeft="@dimen/dp8"
+        android:paddingRight="@dimen/dp5"
+        android:paddingTop="@dimen/dp15"
+        android:textSize="@dimen/sp15"
+        android:textColor="@color/white" />
+</RelativeLayout>

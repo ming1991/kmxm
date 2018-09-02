@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/qp_get_api_status"
+        android:layout_width="@dimen/dp225"
+        android:layout_height="@dimen/dp82"
+        android:paddingLeft="@dimen/dp8"
+        android:lineSpacingMultiplier="1.1"
+        android:paddingTop="@dimen/dp15"
+        android:paddingRight="@dimen/dp5"
+        android:paddingBottom="@dimen/dp5"
+        android:gravity="start|center"
+        android:textSize="@dimen/sp15"
+        android:textColor="@color/white"
+        android:background="@drawable/up_wm_bg_right"/>
+</RelativeLayout>

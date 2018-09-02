@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/hyzx_not_open_background"
+    android:id="@+id/tv_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/dp8"
+    android:paddingLeft="@dimen/dp8"
+    android:paddingRight="@dimen/dp8"
+    android:paddingBottom="@dimen/dp18"
+    android:textColor="@color/whiteColor"
+    android:text="@string/hyzx_not_open"/>

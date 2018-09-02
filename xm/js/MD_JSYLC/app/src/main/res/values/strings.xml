@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">九卅娱乐城</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="web_rb_ptzz">平台转帐</string>
+    <string name="web_rb_ckzq">存款专区</string>
+    <string name="web_rb_tkzq">提款专区</string>
+    <string name="web_rb_kfzx">客服中心</string>
+    <string name="web_rb_hyzx">会员中心</string>
+    <string name="top_jsylc">九卅娱乐城</string>
+    <string name="top_tybc">体育博彩</string>
+    <string name="top_zryx">真人游戏</string>
+    <string name="top_dzyx">电子游戏</string>
+
+    <string name="tipDefault_ptzz">很抱歉，目前平台转帐功能暂不开放，请联系客服中心！</string>
+    <string name="tipDefault_ckzq">很抱歉，目前存款功能暂不开放，请联系客服中心！</string>
+    <string name="tipDefault_tkzq">很抱歉，目前提款功能暂不开放，请联系客服中心！</string>
+    <string name="tipDefault">很抱歉，目前(存款功能/提款功能/会员中心/平台转帐功能)暂不开放，请联系客服中心！</string>
+    <string name="tipSports">体育博彩正在维护中，请先至本网站其他项目投注，谢谢!</string>
+    <string name="tipPerson">真人游戏正在维护中，请先至本网站其他项目投注，谢谢!</string>
+    <string name="tipGames">电子游戏正在维护中，请先至本网站其他项目投注，谢谢!</string>
+
+    <string name="qqcp_kszz">快速转帐</string>
+    <string name="qqcp_zzh">主帐户</string>
+    <string name="qqcp_qqcp">全球彩票</string>
+    <string name="qqcp_loading">Loading...</string>
+    <string name="qqcp_zzje">转帐金额</string>
+    <string name="qqcp_edittext_hint">请输入整数金额</string>
+    <string name="qqcp_jryx">进入游戏</string>
+    <string name="qqcp_qrsc">确认送出</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO :android_shuai-->
+    <string name="login_title">九卅娱乐城</string>
+    <string name="login_account_hint">帐号/手机号码</string>
+    <string name="login_pw_hint">密码</string>
+    <string name="login_enter">登入</string>
+    <string name="login_enter_loading">登入...</string>
+    <string name="login_enter_timeout">连接超时，请重试！</string>
+    <string name="login_acccount_or_password_empty">帐号或密码不能为空！</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_member_register">会员注册</string>
+    <string name="login_error_account">没有该帐户</string>
+    <string name="login_error_password">密码错误</string>
+
+    <string name="dialog_update_password_title">更改密码</string>
+    <string name="dialog_update_password_notice">为了您的帐户安全，请您定期变更密码，方能登入帐号。</string>
+    <string name="dialog_update_password_new">新密码</string>
+    <string name="dialog_update_password_new_confirm">确认新密码</string>
+    <string name="dialog_update_password_edittext_hint">6-10个英、数字符</string>
+    <string name="dialog_update_password_button_confirm">确认</string>
+    <string name="dialog_update_password_button_cancel">取消</string>
+    <string name="dialog_update_password_different">新帐户密码和确认密码不一致</string>
+
+    <string name="dialog_no_network">网络断开连接，请检查您的网络！</string>
+    <string name="dialog_no_network_again">网络错误，请重新尝试！</string>
+    <string name="dialog_confirm">确定</string>
+
+    <string name="hyzx_not_open">很抱歉，目前会员中心暂不开放，请联系客服中心！</string>
+    <string name="dialog_confirm_send">确认送出</string>
+    <string name="dialog_edittext_yhdm_hint">请填写您的优惠代码</string>
+    <string name="dialog_title_xinxi">信息</string>
+    <string name="dialog_send_failure">发送失败，请重试！</string>
+    <string name="dialog_privilege_code_error">请填写正确的优惠代码！</string>
+    <string name="wei_hu">维护中</string>
+    <string name="start_str">维护至</string>
+    <string name="end_str">请稍后</string>
+    <string name="forworld">敬请期待</string>
+    <string name="app_down">APP</string>
+    <string name="web_app">WEB</string>
+    <string name="hot_show">热门</string>
+    <string name="new_last">最新</string>
+
+    <string name="get_gift">领取礼物</string>
+    <string name="birthdaygift">生日礼金</string>
+
+    <string name="dialog_notification_off_line">下线通知</string>
+    <string name="dialog_notification_off_line_message">您的帐号已被登出，如非本人操作，则密码可能已经泄漏，建议修改密码</string>
+    <string name="dialog_notification_login_again">重新登录</string>
+    <string name="dialog_notification_login_quit">退出</string>
+    <string name="dialog_notification_login_again_failure_message">登录失败，请退出再登录！</string>
+    <string name="dialog_notification_login_failure_message">登录失败，请您前往登录页登录！</string>
+    <string name="dialog_notification_accountid_lock">您的账户已被锁定！</string>
+
+    <string name="fragment_ten_seconds_restrict_text1">10秒内只允许进入一次%1$s</string>
+    <string name="fragment_ten_seconds_restrict_text2">您上次登录时间%1$s，请稍后</string>
+    <string name="fragment_ten_seconds_restrict_timer">%1$d 秒</string>
+    <string name="fragment_ten_seconds_restrict_refresh">请点击刷新</string>
+
+    <string-array name="login_bottom_menu">
+        <item>讨&#160;&#160;论&#160;&#160;区</item>
+        <item>最新优惠</item>
+        <item>关于我们</item>
+        <item>帮助中心</item>
+        <item>客服中心</item>
+    </string-array>
+    <string name="login_footer_proucts">产品信息</string>
+    <string name="login_footer_discuss">九卅论坛</string>
+    <string name="login_footer_gift">最新优惠</string>
+    <string name="login_footer_about">关于我们</string>
+    <string name="login_footer_help">帮助中心</string>
+    <string name="login_footer_service">客服中心</string>
+
+    <string-array name="home_top_menu">
+        <item>公告专区</item>
+        <item>投&#160;&#160;诉&#160;&#160;箱</item>
+        <item>关于我们</item>
+        <item>帮助中心</item>
+        <item>APP下载</item>
+        <item>登&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;出</item>
+    </string-array>
+    <string name="home_top_menu_tybc">体育博彩</string>
+    <string name="home_top_menu_qqcp">全球彩票</string>
+    <string name="home_top_menu_dzyx">电子游戏</string>
+    <string name="home_top_menu_zryx">真人游戏</string>
+    <string name="home_top_menu_app">APP下载</string>
+    <string name="home_top_menu_mfyc">免费影城</string>
+    <string name="home_top_menu_xczb">现场转播</string>
+    <string name="home_top_menu_zxyh">最新优惠</string>
+    <string name="home_top_menu_tlq">讨论区</string>
+    <string name="home_top_menu_bzzx">帮助中心</string>
+    <string name="home_top_menu_tsx">投诉箱</string>
+    <string name="home_top_menu_fhdnb">返回电脑版</string>
+    <string name="jzty">九卅体育</string>
+    <string name="ytty">亚投体育</string>
+    <string name="jzzr">九州真人</string>
+    <string name="bbinylc">BBIN馆</string>
+    <string name="agylc">AG馆</string>
+    <string name="ogylc">OG真人</string>
+    <string name="hgylc">HG真人</string>
+    <string name="obylc">AB馆</string>
+    <string name="mgylc">MG馆</string>
+    <string name="sddzg">3D电子</string>
+    <string name="mgdzg">MG馆</string>
+    <string name="hbdzg">HB电子</string>
+    <string name="sycq">3D电子</string>
+    <string name="bngdz">BNG电子</string>
+    <string name="sundzg">SUN馆</string>
+    <string-array name="home_item">
+        <item>免费影城</item>
+        <item>现场转播</item>
+        <item>最新优惠</item>
+        <item>讨论区</item>
+    </string-array>
+
+    <string-array name="home_bottom_menu">
+        <item>变更资料</item>
+        <item>交易记录</item>
+        <item>活动点数</item>
+    </string-array>
+
+    <string-array name="gameCode_allScreen">
+        <item>g1</item>
+        <item>g2</item>
+        <item>g7</item>
+        <item>g10</item>
+        <item>g11</item>
+        <item>g12</item>
+        <item>g13</item>
+        <item>g14</item>
+        <item>g16</item>
+        <item>g17</item>
+        <item>g18</item>
+    </string-array>
+
+    <string-array name="gameCode_key">
+        <item>g1</item>
+        <item>g2</item>
+        <item>g3</item>
+        <item>g4</item>
+        <item>g5</item>
+        <item>g6</item>
+        <item>g7</item>
+        <item>g8</item>
+        <item>g9</item>
+        <item>g10</item>
+        <item>g11</item>
+        <item>g12</item>
+        <item>g13</item>
+        <item>g14</item>
+        <item>g15</item>
+        <item>g16</item>
+        <item>s1</item>
+        <item>f1</item>
+        <item>g17</item>
+        <item>g18</item>
+    </string-array>
+    <string-array name="gameCode_value">
+        <item>全球彩票</item>
+        <item>3D电子</item>
+        <item>MG馆</item>
+        <item>SUN电子馆</item>
+        <item>HB电子</item>
+        <item>综合电子馆</item>
+        <item>3D电子</item>
+        <item>AG捕鱼王</item>
+        <item>沙巴体育</item>
+        <item>BBIN馆</item>
+        <item>AB馆</item>
+        <item>OG真人</item>
+        <item>HG真人</item>
+        <item>AG馆</item>
+        <item>MG馆</item>
+        <item>亚投体育</item>
+        <item>九卅体育</item>
+        <item>九卅娱乐场</item>
+        <item>BNG电子</item>
+        <item>白云电子</item>
+    </string-array>
+    <string-array name="qqcp_dialog_msg">
+        <item>信息</item>
+        <item>请填写金额 !</item>
+        <item>本次交易</item>
+        <item>点数！</item>
+    </string-array>
+    <string name="bn_cancel">取消</string>
+    <string name="bn_sure">确定</string>
+    <string-array name="kszzArray_key">
+        <item>M-01</item>
+        <item>M-02</item>
+        <item>M-03</item>
+        <item>M-04</item>
+        <item>M-05</item>
+        <item>M-06</item>
+        <item>M-08</item>
+        <item>M-15</item>
+        <item>M-20</item>
+        <item>M-21</item>
+        <item>M-22</item>
+        <item>M-34</item>
+        <item>M-35</item>
+    </string-array>
+    <string name="ck">查看</string>
+    <string name="bn_sure_down">确定要下载九卅娱乐场APP？</string>
+    <string name="msg_no_read">您有信息尚未读取!</string>
+    <string name="sdg">3D电子馆</string>
+    <string-array name="kszzArray_value">
+        <item>您已被登出，请重新登陆操作！</item>
+        <item>电子钱包交易操作现已关闭，请稍后操作！</item>
+        <item>帐号游戏中，无法使用此功能！</item>
+        <item>您的可轉余额为零！</item>
+        <item>您的可用额度不足！</item>
+        <item>金额格式错误！</item>
+        <item>平台转帐成功！</item>
+        <item>試玩帳號不開放SUN電子館</item>
+        <item>连续提交，后一次提交请求已返回！</item>
+        <item>試玩帳號不開放AG電子館</item>
+        <item>我的钱包互转功能暂时关闭，请稍后再使用，谢谢！</item>
+        <item>测试站不开放AG娱乐场操作！</item>
+        <item>系统检测到您当前可能正在游戏中或尚未结算完毕，请稍后！</item>
+        <item>主帐户与</item>
+        <item>互转失败，请重新操作！</item>
+    </string-array>
+    <string name="kszz_start">主帐户与</string>
+    <string name="kszz_end">互转失败，请重新操作！</string>
+    <string name="dialogTitle">信息</string>
+    <string name="home_bottom_menu_bgzl">变更资料</string>
+    <string name="home_bottom_menu_jyjl">交易记录</string>
+    <string name="home_bottom_menu_hyhz">会员互转</string>
+    <string name="home_bottom_menu_ggzq">公告专区</string>
+    <string name="home_bottom_menu_hdds">活动点数</string>
+    <string name="home_bottom_menu_yhdm">优惠代码</string>
+    <string name="openQQ">是否打开QQ进行临时会话？</string>
+    <string name="openTel">是否打开拨号盘？</string>
+    <string name="network_error">当前网络不可用！</string>
+    <string name="current_using_root">为安全起见请关闭手机的Root环境再使用！</string>
+    <string name="current_using_proxy">为安全起见请关闭网络代理设置再使用！</string>
+    <string name="qq_not_avilible">未找到QQ客户端！</string>
+    <string name="quit_app">再按一次退出程序</string>
+    <string name="openByWeiXin">在“微信”中打开</string>
+    <string name="have_no_weixin">未检测到微信客户端</string>
+
+    <string name="cancel">取消</string>
+    <string name="sure">确认</string>
+    <string name="takePhoto">手机拍照</string>
+    <string name="pickPicture">手机相册</string>
+    <string name="getPermissions">权限清求</string>
+    <string name="permissionsMsg1">为正常使用此功能，需要读写媒体设备权限，当前未取得相关权限，是否给予?</string>
+    <string name="permissionsMsg2">因读写媒体设备权限被彻底拒绝，无法正常使用该功能，是否打开设置界面给予相关权限?</string>
+    <string name="noPermissions">未授予权限</string>
+    <string name="havePermissions">已获得权限</string>
+    <string name="noSetPermissions">未设置权限为允许</string>
+    <!-- TODO :阿里云播放-->
+    <string name="log_start_get_data">准备请求码流</string>
+    <string name="log_strart_play">开始请求播放</string>
+    <string name="toast_prepare_success">准备成功</string>
+    <string name="log_prepare_success">准备成功</string>
+    <string name="log_player_create_success">播放创建成功</string>
+    <string name="log_open_url_success">url请求成功</string>
+    <string name="log_request_stream_success">请求流成功</string>
+    <string name="log_start_open_stream">开始传输码流</string>
+    <string name="log_first_frame_played">第一帧播放完成</string>
+    <string name="toast_fail_msg">失败！！！！原因：</string>
+    <string name="net_change_to_4g">网络切换为4G</string>
+    <string name="net_change_to_wifi">网络切换为WIFI</string>
+    <string name="net_disconnect">网络已断开</string>
+    <string name="net_change_to_continue">是否继续播放？</string>
+    <string name="log_seek_completed">seek结束</string>
+    <string name="log_play_stopped">播放停止</string>
+    <string name="ok">是</string>
+    <string name="no">否</string>
+    <string name="error_type">错误类型</string>
+    <string name="parse_error">解析错误</string>
+    <string name="insufficient_privilege">没有sd卡写入权限</string>
+    <string name="velocity_error">测速错误</string>
+    <string name="app_exception_quit">"很抱歉，程序出现异常，即将退出!"</string>
+
+    <string name="permission_noprompt_title">勾选了不在询问</string>
+    <string name="permission_noprompt_content">权限被拒绝，并且勾选了不在询问，要正常使用该功能请打开设置界面给予权限！</string>
+    <string name="permission_noprompt_ok">设置</string>
+    <string name="permission_noprompt_cancel">取消</string>
+    <string name="toast_camera">无法启用相机</string>
+    <string name="toast_flash">当前设备不支持闪光灯</string>
+
+    <string name="dialog_exit_or_register_title">信息</string>
+    <string name="dialog_exit_or_register_message">您尚未完成注册，是否继续？</string>
+    <string name="dialog_exit_or_register_leave">确定离开</string>
+    <string name="dialog_exit_or_register_continue">继续注册</string>
+</resources>

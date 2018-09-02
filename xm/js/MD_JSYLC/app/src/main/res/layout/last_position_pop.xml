@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/rb_get_api_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/last_psiotion_pop"
+        android:gravity="start"
+        android:paddingBottom="@dimen/dp17"
+        android:paddingLeft="@dimen/dp5"
+        android:paddingRight="@dimen/dp5"
+        android:paddingTop="@dimen/dp8"
+        android:text=""
+        android:textColor="@color/white" />
+</LinearLayout>

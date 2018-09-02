@@ -1,0 +1,93 @@
+<resources>
+    <string name="char_space">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="app_name">单开账单</string>
+    <string name="verson">版本号</string>
+    <string name="about_app">关于账单</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="install_cert">重新安装证书</string>
+    <string name="setting_system_proxy">设置系统代理</string>
+    <string name="openAccessibilityService">开启微信无障碍服务</string>
+    <string name="openWeChat">打开微信</string>
+    <string name="selectLibrary">切换上传的库</string>
+    <string name="personSetting">设置刷新频率</string>
+    <string name="WeChatAccessibilityServiceLable">单开版微信无障碍服务</string>
+    <string name="description">前台微信特定页面自动化点击操作</string>
+    <!--————————————————————————————————-->
+    <string name="help">使用指南</string>
+    <string name="tradingRecord">零钱明细</string>
+    <string name="personalInformation">个人信息</string>
+    <!--————————————————————————————————-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="p1">Hello blank fragment 1</string>
+    <string name="p2">Hello blank fragment 2</string>
+    <string name="p3">Hello blank fragment 3</string>
+
+    <string name="tv_amount_name">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;金额</string>
+    <string name="tv_type_name">类&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;型</string>
+    <string name="tv_time_name">时&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;间</string>
+    <string name="tv_transaction_number_name">交易单号</string>
+    <string name="tv_remaining_change_name">剩余零钱</string>
+    <string name="tv_remark_name">备&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;注</string>
+    <string name="loding">--</string>
+    <string name="net_amount">入账金额</string>
+    <string name="change_off_amount">出账金额</string>
+    <string name="no_remark">无</string>
+    <string name="tv_title_fcb">零钱明细</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm">确定</string>
+    <string name="inform">个人信息</string>
+    <string name="wechat_account">微信号</string>
+    <string name="user_name">用户名称</string>
+    <string name="error_wechat_account">微信号不能为空</string>
+    <string name="error_user_name">用户名称不能为空</string>
+    <string name="tv_title_help">使用说明</string>
+
+    <!--TODO:Remove or change this setting text-->
+    <string name="setting_refresh_rate">设置数据刷新频率</string>
+    <string name="setting_btn">保存</string>
+    <string name="setting_refresh_rate_summary">数据刷新默认是16秒/次，您可以根据你的实际情况进行动态的修改(16~999)，当前的刷新频率为%1$d秒/次。</string>
+    <string name="setting_refresh_rate_unit">(秒/次)</string>
+    <string name="setting_refresh_rate_empty_notice">输入的不能为空</string>
+    <string name="setting_refresh_rate_fail_notice">修改失败,刷新频率不得小于16秒/次</string>
+    <string name="setting_refresh_rate_success_notice">修改成功</string>
+
+    <!--TODO:Remove or change this welcome guide text-->
+    <string name="title_welcome_guide1">第一步：登录微信客户端</string>
+    <string name="welcome_guide_next">下一步</string>
+    <string name="welcome_guide1_detail">确保手机已经安装了微信客户端，并成功登录微信客户端，检查微信是否已更新至最新的版本</string>
+    <string name="welcome_guide1_open_wechat">已经安装微信客户端，打开微信登录</string>
+    <string name="welcome_guide1_no_wechat">检测到手机还没有安装微信客户端</string>
+
+    <string name="title_welcome_guide2">第二步：安装CA证书</string>
+    <string name="welcome_guide2_detail">第一次进入程序需要安装CA证书以便进行HTTPS抓包(原理同Fiddler),
+        点击“安装证书”后请点击确认按钮，屏幕吐司显示“安装成功”即为成功。(注：如果手机未设置锁屏图案或密码则无法安装证书，
+        请先添加任意一种安全屏幕锁定类型)</string>
+
+    <string name="title_welcome_guide3">第三步：设置系统代理</string>
+    <string name="welcome_guide3_detail">通过设置系统代理可以实现抓取别的APP的请求包,打开手机的WIFI设置，
+        选中你要链接的WIFI，修改该网络，将代理由“无”改成“手动”，主机名：127.0.0.1，端口号改为8888(有些手机是
+        长按该网络，弹出对话框后选中修改网络，在该网络详情界面点击“显示高级选项”，方可修改)</string>
+
+    <string name="title_welcome_guide4">第四步：开启无障碍服务</string>
+    <string name="welcome_guide4_detail">开启该服务，打开微信后，微信将以一定的频率自动刷新。跳转至系统相关设置界面，
+        开启“微信无障碍服务”</string>
+    <string name="welcome_guide4_notice">(注意：开启服务前，先打开微信“首页面”，按Home键将微信置于后台，
+        而不要按返回键退出，再开启无障碍模式)</string>
+
+    <string name="title_welcome_guide5">第五步：注意事项</string>
+    <string name="welcome_guide5_detail">
+        1.设置手机屏幕为常亮，当模拟点击刷新数据时，如果屏幕熄灭，数据也就不再刷新；
+        \n\n2.确保第一步打开的微信是按Home键将这两个应用置于后台，而不是按返回键退出；
+        您如果不是这样做的，在点击“完成”进入主界面后，将屏幕右滑在侧滑菜单中点击“开启微信无障碍服务”，
+        先关闭对应的无障碍服务，正确打开这两个微信，并按Home键置于后台后，再开启无障碍服务；
+        \n\n3.在APP模拟点击运行中如果要进行手动操作(如：提现等)，请先关闭相应的无障碍模式，
+        操作完成后确保微信在首页面，再开启无障碍模式；
+        \n\n4.将微信和单开账单设置为自启动</string>
+
+    <string name="title_welcome_finish">完成</string>
+
+</resources>

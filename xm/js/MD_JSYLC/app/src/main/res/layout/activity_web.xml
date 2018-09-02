@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/web_activity_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/webview_background"
+    tools:context="com.kmjd.jsylc.zxh.ui.activity.WebActivity">
+
+    <FrameLayout
+        android:id="@+id/web_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/webview_background">
+
+    </FrameLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/web_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/web_activity_toolbar_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="@dimen/dp20">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/web_im_back"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/user_back_white_2x"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/web_im_home"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/btn_home_2x"
+                android:layout_marginLeft="@dimen/dp60"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:id="@+id/web_tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:text=""
+                android:textSize="@dimen/dp24"
+                android:textColor="@color/white"/>
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/web_im_more"
+                android:layout_width="@dimen/dp30"
+                android:layout_height="@dimen/dp30"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/btn_footlogin_menu"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RadioGroup
+        android:id="@+id/web_rg"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/web_activity_rg_background">
+        <RadioButton
+            android:id="@+id/web_rb_ptzz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/web_rb_ptzz"
+            android:text="@string/web_rb_ptzz"
+            android:textColor="@drawable/web_rb_text_white"
+            android:button="@null"
+            android:paddingTop="@dimen/dp5"
+            android:gravity="bottom|center_horizontal"/>
+        <RadioButton
+            android:id="@+id/web_rb_ckzq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/web_rb_ckzq"
+            android:text="@string/web_rb_ckzq"
+            android:textColor="@color/golden"
+            android:button="@null"
+            android:paddingTop="@dimen/dp5"
+            android:gravity="bottom|center_horizontal"/>
+        <RadioButton
+            android:id="@+id/web_rb_tkzq"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/web_rb_tkzq"
+            android:text="@string/web_rb_tkzq"
+            android:textColor="@color/golden"
+            android:button="@null"
+            android:paddingTop="@dimen/dp5"
+            android:gravity="bottom|center_horizontal"/>
+        <RadioButton
+            android:id="@+id/web_rb_kfzx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/web_rb_kfzx"
+            android:text="@string/web_rb_kfzx"
+            android:textColor="@drawable/web_rb_text_white"
+            android:button="@null"
+            android:paddingTop="@dimen/dp5"
+            android:gravity="bottom|center_horizontal"/>
+        <RadioButton
+            android:id="@+id/web_rb_hyzx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/web_rb_hyzx"
+            android:text="@string/web_rb_hyzx"
+            android:textColor="@drawable/web_rb_text_white"
+            android:button="@null"
+            android:paddingTop="@dimen/dp5"
+            android:gravity="bottom|center_horizontal"/>
+    </RadioGroup>
+
+
+
+</RelativeLayout>

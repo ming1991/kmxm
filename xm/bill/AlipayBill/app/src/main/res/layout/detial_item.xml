@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:context="com.kmjd.android.zxhzm.alipaybill.activity.GuideActivity">
+
+    <TextView
+        android:id="@+id/classify"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp48"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/dp18"
+        android:gravity="center_vertical"
+        android:text=""
+        android:textColor="@color/gray"
+        android:textSize="@dimen/sp16"/>
+
+    <TextView
+        android:id="@+id/detial"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp47"
+        android:layout_marginRight="@dimen/dp18"
+        android:layout_toRightOf="@+id/classify"
+        android:paddingTop="@dimen/dp13"
+        android:layout_marginLeft="@dimen/dp17"
+        android:gravity="right"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp15"/>
+
+</RelativeLayout>
+
+

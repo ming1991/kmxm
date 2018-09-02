@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/installCert"
+            android:checkable="false"
+            android:icon="@drawable/cert"
+            android:title="@string/install_cert" />
+    </group>
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting_system_proxy"
+            android:checkable="false"
+            android:icon="@drawable/sys_proxy"
+            android:title="@string/setting_system_proxy" />
+    </group>
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/openAccessibilityService"
+            android:checkable="false"
+            android:icon="@drawable/oabs"
+            android:title="@string/openAccessibilityService" />
+    </group>
+
+    <group
+        android:id="@+id/g4"
+        android:checkableBehavior="single">
+        <item android:id="@+id/selectLibrary"
+              android:checkable="false"
+              android:icon="@drawable/cut"
+              android:title="@string/selectLibrary"/>
+    </group>
+
+    <group
+        android:id="@+id/g5"
+        android:checkableBehavior="single">
+        <item android:id="@+id/personSetting"
+              android:checkable="false"
+              android:icon="@drawable/setting"
+              android:title="@string/personSetting"/>
+    </group>
+
+
+</menu>

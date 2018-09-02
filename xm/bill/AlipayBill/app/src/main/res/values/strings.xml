@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AlipayBill</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alipay_accessibilityservice_dec">支付宝账单无障碍服务</string>
+    <string name="description">支付宝特定页面自动化点击操作</string>
+    <string name="bt_start">进入账单</string>
+    <string name="to_open">去开启</string>
+    <string name="notify_text">支付宝账单通知使用权</string>
+    <string name="access_text">支付宝账单无障碍服务</string>
+    <string name="about_app">关于账单</string>
+    <string name="alipay_bill">支付宝账单</string>
+    <string name="sure">确定</string>
+    <string name="alipay"> 支付宝账号</string>
+    <string name="book_name">当前账本名称</string>
+    <string name="alipayt">请输入支付宝账号</string>
+    <string name="book_namet">请输入当前账本名称</string>
+    <string name="about">关于</string>
+    <string name="cuurent_money">当前余额</string>
+    <string name="brush_account">刷账</string>
+    <string name="number">选择入库的编号</string>
+    <string name="numbers">当前入库编号</string>
+    <string name="verson">版本号</string>
+    <string name="warring">输入的账号不能为空</string>
+    <string name="please">请选择编号/填写账号</string>
+    <string name="curren_accunt">当前支付宝账号</string>
+    <string name="curren_balance">当前支付宝余额</string>
+    <string name="checkup">检查新版本</string>
+    <string name="has_open">支付宝账单通知使用权已开启</string>
+    <string name="receipts">商家扫码收款</string>
+    <string name="draw_cash">提现到银行卡</string>
+    <string name="none">无</string>
+    <string name="bill_detial">账单详情</string>
+    <string name="mc">"交易方-"</string>
+    <string name="seletor_lib">"请选择你要上传的库"</string>
+    <string name="exit">"再按一次退出程序"</string>
+    <string name="touch_brush_account">"成功触发账本刷账"</string>
+    <string-array name="detial_classify">
+        <item>账单分类</item>
+        <item>创建时间</item>
+        <item>订单号</item>
+    </string-array>
+</resources>

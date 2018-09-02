@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--第二次修改的菜单的布局-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp205"
+    android:layout_height="@dimen/dp60"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="@dimen/dp189"
+        android:layout_height="@dimen/dp44"
+        android:background="@drawable/bt_out_selector"
+        android:layout_margin="@dimen/dp8"
+        android:paddingLeft="@dimen/dp32"
+        android:paddingRight="@dimen/dp42"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/dp35"
+            android:layout_height="@dimen/dp35"
+            android:layout_gravity="center"
+            android:src="@mipmap/home_top_menu_out"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/dp16"
+            android:textColor="@color/login_out"
+            android:gravity="end"/>
+    </LinearLayout>
+</LinearLayout>

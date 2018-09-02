@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/left_image"
+        android:layout_width="@dimen/dp50"
+        android:layout_height="@dimen/dp50"
+        android:layout_centerVertical="true"
+        android:minHeight="@dimen/dp20"
+        android:minWidth="@dimen/dp20"
+        android:layout_marginLeft="@dimen/dp10"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp5"
+        android:layout_toRightOf="@+id/left_image"
+        android:gravity="center"
+        android:minHeight="@dimen/dp45"
+        android:text="left" />
+
+    <TextView
+        android:id="@+id/mid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:minHeight="@dimen/dp45"
+        android:text="mid"
+        android:textSize="@dimen/sp17" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:minHeight="@dimen/dp45"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/right_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_toLeftOf="@+id/right_image"
+            android:gravity="center"
+            android:minHeight="@dimen/dp45"
+            android:text="right" />
+
+        <ImageView
+            android:id="@+id/right_image"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:minHeight="@dimen/dp20"
+            android:minWidth="@dimen/dp20"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+</merge>

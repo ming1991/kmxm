@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp45"
+    android:orientation="vertical">
+<com.kmjd.wcqp.single.zxh.customwidget.SelfBar
+    android:padding="@dimen/dp2"
+    android:id="@+id/self_back"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp39"
+    app:leftImage="@drawable/leftarrow"
+    app:leftImageVisiable="true"
+    app:rightImageVisible="false"
+    app:midText="@string/inform"
+    app:midTextFontColor="#ffffff"
+    app:leftTextColor="#ffffff"
+    app:rightTextColor="@color/colorAccent"
+    app:titleBarBackground="#303F9F"
+    app:leftTextVisibale="false"
+    app:rightTextVisible="false"
+     />
+    <ListView
+        android:id="@+id/self_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

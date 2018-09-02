@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">九卅助手</string>
+
+    <string name="xljc">线路检测</string>
+    <string name="gzbx">故障报修</string>
+    <string name="xtjk">系统监控</string>
+    <string name="mainAy_rb_xljc_text">@string/xljc</string>
+    <string name="mainAy_rb_gzbx_text">@string/gzbx</string>
+    <string name="mainAy_rb_xtjk_text">@string/xtjk</string>
+
+    <string name="cpu_lyl_total_name">利用率</string>
+    <string name="cpu_lyl_total_value">100%</string>
+    <string name="cpu_current_lyl_name">CPU利用率</string>
+    <string name="cpu_current_lyl_value">……</string>
+    <string name="cpu_number_processes_name">CPU进程数</string>
+    <string name="cpu_number_processes_value">……</string>
+
+    <string name="xtjk_frag_jytsyl_total_name">内存使用量</string>
+    <string name="xtjk__frag_jytsyl_total_value">……</string>
+    <string name="xtjk_frag_jytsyl_name">内存使用率</string>
+    <string name="xtjk_frag_jytsyl_value">……</string>
+    <string name="xtjk_frag_ysy_name">已使用</string>
+    <string name="xtjk_frag_ysy_value">……</string>
+    <string name="xtjk_frag_ky_name">可用</string>
+    <string name="xtjk_frag_ky_value">……</string>
+
+    <string-array name="activity_main_theCodeInnerString">
+        <item>再按一次返回鍵退出应用程序</item>
+        <item>20180517</item>
+        <item>版本更新</item>
+        <item>当前应用不是最新版本,</item>
+        <item>请及时更新!</item>
+        <item>下载更新包需要写入sdCard权限,请允许！</item>
+        <item>下载</item>
+        <item>以后再说</item>
+        <item>始终允许</item>
+        <item>当前App需要申请写入sdCard权限,否则无法下载更新包，需要打开设置页面么?</item>
+        <item>权限申请</item>
+        <item>确认</item>
+        <item>取消</item>
+        <item>设置</item>
+        <item>"由于您已开启'不保留活动',导致部分功能无法正常使用.我们建议您点击'设置'按钮,在'开发者选项'中关闭'不保留活动'功能."</item>
+    </string-array>
+
+    <string-array name="UpdateService">
+        <item>正在下载</item>
+        <item>下载暂停</item>
+        <item>下载延迟</item>
+        <item>下载完成</item>
+        <item>下载失败</item>
+    </string-array>
+    <string name="bn_userType_CN">大陆地区</string>
+    <string name="bn_userType_TW">台湾地区</string>
+    <string name="tv_changeUserType">切换地区</string>
+    <string name="tv_changeUserType_hint">是否切换用户地区？</string>
+    <string name="tv_changeUserType_NO">否</string>
+    <string name="tv_changeUserType_YES">是</string>
+    <string-array name="changeUserType_Toast_Hint">
+        <item>用户地区初始化成功，谢谢使用！</item>
+        <item>抱歉!用户地区提交不成功，默认进入大陆地区</item>
+        <item>抱歉!用户地区提交不成功，默认进入台湾地区</item>
+    </string-array>
+    <!--*********************************************************************-->
+    <string name="repair_list_huiyuan_account">会员账号</string>
+    <string name="repair_list_huiyuan_account_hint">【请务必填写您的真实账号,以利回复之用】</string>
+    <string name="repair_list_phone_number">手机号码</string>
+    <string name="repair_list_phone_number_hint">【请务必填写您的真实号码,以利回复之用】</string>
+    <string name="repair_list_netword_address">网站/站名</string>
+    <string name="repair_list_netword_address_hint">【请务必填写您的真实网址,以利回复之用】</string>
+    <string name="repair_list_describe_content_hint">【请详细描述问题,以利我们快速的协助您解决问题,谢谢】</string>
+    <string name="repair_list_problem_type">问题类别</string>
+    <string name="repair_list_problem_type_notice">请选择问题类别</string>
+    <string name="repair_list_problem_describe">问题描述</string>
+    <string name="repair_list_submit">送出报修单</string>
+
+    <string name="reoair_item_id">报修单号:</string>
+    <string name="repair_item_network_address">网站/站名:</string>
+    <string name="repair_item_problem_type">问题类别:</string>
+    <string name="repair_item_problem_describe">问题描述:</string>
+    <string name="repair_item_deal_state">处理状态:</string>
+    <string name="repair_item_replycontent">问题回复:</string>
+    <string name="repair_item_no_replycontent">暂无回复</string>
+    <string name="loading_dengdai">正在提交，请稍候...</string>
+    <string name="loading_seek_dengdai">正在搜索，请稍候...</string>
+
+    <string name="gzbx_imei_permission_request">需要请求电话权限，获取手机的标识码</string>
+    <string name="gzbx_no_repair_list">暂无报修单!</string>
+    <string name="permission_request_detail">当前App需要申请电话权限读取手机的标识码,需要打开设置页面么?</string>
+    <string name="permission_request">"权限申请"</string>
+    <string name="affirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="permission_grant">权限允许,请提交!</string>
+
+    <string name="all">全部</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="thisweek">本周</string>
+    <string name="superweek">上周</string>
+
+    <string-array name="repair_problem_type">
+        <item>九卅体育</item>
+        <item>沙巴体育</item>
+        <item>九卅娱乐场</item>
+        <item>真人游戏</item>
+        <item>电子游戏</item>
+        <item>全球彩票</item>
+        <item>六合彩球</item>
+        <item>现场斗鸡</item>
+        <item>影城</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="repair_problem_type_cn_ju11">
+        <item>九卅体育</item>
+        <item>九卅娱乐场</item>
+        <item>真人游戏</item>
+        <item>电子游戏</item>
+        <item>全球彩票</item>
+        <item>现场斗鸡</item>
+        <item>影城</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="repair_problem_type_cn_tx6666orcq11">
+        <item>九卅体育</item>
+        <item>九卅娱乐场</item>
+        <item>沙巴体育</item>
+        <item>真人游戏</item>
+        <item>电子游戏</item>
+        <item>全球彩票</item>
+        <item>现场斗鸡</item>
+        <item>影城</item>
+        <item>其他</item>
+    </string-array>
+
+    <string name="xljc_reset_line">重整线路</string>
+    <string name="xljc_item_netword_address">备用网址</string>
+    <string name="xljc_item_junshu">均速</string>
+    <string name="xljc_item_shishu">实速</string>
+    <string name="xljc_item_failure">失败</string>
+    <string name="xljc_is_testing">正在测速请稍候!</string>
+    <string name="xljc_link_null">该站点备用网址尚未开放!</string>
+    <string name="xljc_lianjie_failure">连接失败,请重试!</string>
+    <string name="xljc_lianjie_timeout">连接超时,请重试!</string>
+    <string name="submit_success">提交成功</string>
+    <string name="submit_failure">提交失败,请重试!</string>
+    <string name="submit_parameter_error">参数异常</string>
+    <string name="phone_format_error">手机号码格式不正确,请重新输入!</string>
+    <string name="nonet_lianjie">无网络连接,请检查网络设置!</string>
+    <string name="xljc_item_website_istesting">该站点正在测速,请稍候!</string>
+    <string name="xljc_item_website_isvaild">该链接无效,请选择其他备用网址</string>
+    <string name="net_status_error">网络状态异常</string>
+    <string name="net_status_error_setting_or_loading">请尝试重新设置网络或者重新加载</string>
+    <string name="net_setting">网络设置</string>
+    <string name="net_reloading">重新加载</string>
+
+    <string name="Commons.SslWarningsHeader">网站的安全证书存在问题</string>
+    <string name="Commons.SslUntrusted">网站证书没有可信任的发行者</string>
+    <string name="Commons.SslIDMismatch">站点名和证书不匹配</string>
+    <string name="Commons.SslExpired">证书已经过期</string>
+    <string name="Commons.SslNotYetValid">证书没有验证</string>
+    <string name="Commons.SslWarning">安全警告</string>
+    <string name="Commons.Continue">继续</string>
+    <string name="Commons.Cancel">取消</string>
+
+    <string name="undisposed">未处理</string>
+    <string name="resolved">已解决</string>
+    <string name="dealing">处理中</string>
+    <string name="inextricability">无法解决</string>
+
+    <string-array name="xljc_choose_website_cn">
+        <item>九卅娱乐城JU11</item>
+        <item>九卅天下现金网TX66</item>
+        <item>传奇娱乐城CQ11</item>
+    </string-array>
+
+    <string name="zi_shu_yi_da_shang_xian">字数已达上限</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">1</string>
+    <string name="hello_blank_fragment2">2</string>
+    <string name="hello_blank_fragment3">3</string>
+</resources>

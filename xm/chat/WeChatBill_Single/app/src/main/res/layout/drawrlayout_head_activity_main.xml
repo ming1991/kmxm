@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp255"
+        android:src="@drawable/k"
+        android:scaleType="fitCenter"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp8"
+        android:text="克明峻德，格物致知。"
+        android:textSize="@dimen/sp14"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:background="@color/colorPrimary33"/>
+</LinearLayout>

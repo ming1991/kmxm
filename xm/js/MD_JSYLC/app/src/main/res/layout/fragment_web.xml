@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/webview_background"
+    tools:context="com.kmjd.jsylc.zxh.ui.fragment.WebFragment">
+
+
+    <LinearLayout
+        android:id="@+id/web_layout_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    </LinearLayout>
+</FrameLayout>

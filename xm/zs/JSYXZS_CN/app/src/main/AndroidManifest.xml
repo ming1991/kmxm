@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.md.jsyxzs_cn.zym_xs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/app_icon_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--应用统计平台为：友盟统计（与多渠道打包无关）-->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="586b40e83eae2566a8002533" />
+        <!--多渠道打包配置：gradle中动态替换打包渠道-->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:theme="@style/NoTitleFullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activitys.NewRepairListActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activitys.NetAccessActivity"/>
+
+        <service android:name=".services.UpdateService"/>
+    </application>
+
+</manifest>

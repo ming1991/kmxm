@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#8BB8CF</color>
+    <color name="colorPrimary">#8BB8CF</color>
+    <color name="colorAccent">#8BB8CF</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="color_99FFFFFF">#99FFFFFF</color>
+    <color name="color_88FFFFFF">#88FFFFFF</color>
+    <color name="color_77FFFFFF">#77FFFFFF</color>
+    <color name="color_66FFFFFF">#66FFFFFF</color>
+    <color name="color_55FFFFFF">#55FFFFFF</color>
+    <color name="color_44FFFFFF">#44FFFFFF</color>
+    <color name="color_33FFFFFF">#33FFFFFF</color>
+    <color name="color_22FFFFFF">#22FFFFFF</color>
+    <color name="color_11FFFFFF">#11FFFFFF</color>
+
+    <color name="color_11111111">#11111111</color>
+    <color name="black">#2B2B2B</color>
+    <color name="tranparent_black">#66000000</color>
+
+
+    <color name="mainAy_rg_bg">#81AEC3</color>
+    <color name="mainAy_rb_textColor_checked">#144B66</color>
+    <color name="mainAy_rb_textColor_unchecked">#DEF2F1</color>
+    <color name="xtjk_frag_cpu_lyl_total_name_color">#406D87</color>
+    <color name="cpu_lyl_total_value_color">#51A1C2</color>
+    <color name="xtjk_frag_diliver_bg_color">#DBDBDB</color>
+    <color name="xtjk_frag_cpu_current_lyl_name_color">#323232</color>
+    <color name="xtjk_frag_cpu_current_lyl_value_color">#A90600</color>
+
+<!--************************************************************************-->
+
+
+    <color name="little_background_color">#E7F4FA</color>
+    <color name="shallow_text_color">#8AB9CD</color>
+    <color name="deep_text_color">#3A6B83</color>
+
+    <color name="click_yueri_text_color">#096A72</color>
+    <color name="click_year_text_color">#92BDC3</color>
+    <color name="click_background_color">#E3F5F7</color>
+
+    <color name="noclick_yueri_text_color">#828E8F</color>
+    <color name="noclick_year_text_color">#BED2D1</color>
+    <color name="noclick_background_color">#E5EDEF</color>
+
+    <color name="repair_list_state_text_color">#A10B11</color>
+
+    <color name="xljc_website_choose_backgrounh_color">#B1D7EA</color>
+    <color name="xljc_website_choose_text_color">#1E5A75</color>
+
+    <color name="xljc_reset_line_background_color">#85B9D1</color>
+
+    <color name="xljc_item_background_color_0">#E7F4FA</color>
+    <color name="xljc_item_number_text_color_0">#85B8D0</color>
+
+    <color name="xljc_item_background_color_1">#E1F6F9</color>
+    <color name="xljc_item_number_text_color_1">#44B7C9</color>
+
+    <color name="xljc_item_pb_background_false">#B9D0D8</color>
+    <color name="xljc_item_junshu_color">#447388</color>
+    <color name="xljc_item_netword_speed">#489BC3</color>
+    <color name="xljc_item_fast_text_color">#42D1B1</color>
+
+
+</resources>

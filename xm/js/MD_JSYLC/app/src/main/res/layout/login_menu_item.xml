@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp80"
+    android:layout_height="@dimen/dp80"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp47"
+        android:layout_marginTop="@dimen/dp5"
+        android:src="@mipmap/icon_footer_about_new"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/popupwindows_menu_textcolor_selector"
+        android:layout_margin="@dimen/dp5"
+        android:gravity="center"/>
+</LinearLayout>

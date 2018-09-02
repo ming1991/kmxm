@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#176299</color>
+    <color name="colorPrimaryDark">#176299</color>
+    <color name="colorAccent">#019688</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="hint">#6A6B6B</color>
+    <color name="textcolor">#606060</color>
+    <color name="web_activity_toolbar_background">#176299</color>
+    <color name="web_activity_rg_background">#000000</color>
+    <color name="gray">#ABABAB</color>
+    <color name="golden">#CFD000</color>
+    <color name="foreground">#DF3D3D3D</color>
+    <color name="foreground2">#00212121</color>
+    <color name="webview_background">#232323</color>
+    <color name="keyborad_pressed">#D4F8FE</color>
+    <!--TODO android_shuai-->
+    <color name="statusbar">#176299</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="login_exittext_notfocus_textcolor">#A7A7A7</color>
+    <color name="login_background_color">#333333</color>
+    <color name="login_hint_color">#757575</color>
+    <color name="login_id_pw_background_color">#4E4E4E</color>
+    <color name="login_enter_button_background_color">#30A8B6</color>
+    <color name="login_failure_message_color">#BC7C87</color>
+    <color name="login_bottom_backround_color">#212121</color>
+    <color name="login_bottom_member_register_text_color">#F9C201</color>
+    <color name="menu_cutting_line">#EEEEEE</color>
+    <color name="popupwindows_menu_text_normal_color">#555555</color>
+    <color name="popupwindows_menu_text_press_color">#AAAAAA</color>
+    <color name="ten_seconds_restrict_message_color">#2AA458</color>
+    <color name="dialog_xunxi_button_color">#5A89D5</color>
+    <color name="deep_gray">#363636</color>
+
+    <color name="qqcp_windowd_mainColor">#D5D5D5</color>
+    <color name="qqcp_tv_loading_textColor">#00AE4A</color>
+    <color name="qqcp_bn_jryx_bgn">#30A8B6</color>
+    <color name="qqcp_bn_qrsc_bgn">#FEA406</color>
+    <color name="dialog_text_background_color">#D5D5D5</color>
+    <color name="dialog_title_text_color">#535252</color>
+    <color name="dialog_message_title_text_color">#89828D</color>
+    <color name="dialog_edittext_hint_text_color">#A8A9AD</color>
+    <color name="wf_radius_color">#AA4A4A</color>
+    <color name="birthdaygift_text_color">#FBD300</color>
+    <color name="dialog_border_color">#C4CCD9</color>
+    <color name="red">#FF0000</color>
+
+    <color name="home_bottom_adapter_text_normal_color">#a0a0a0</color>
+    <color name="home_bottom_adapter_text_press_color">#ffffff</color>
+
+    <color name="login_update_password_dialog_exittext_border_color">#6EA7E6</color>
+    <color name="login_update_password_dialog_exittext_warn_border_color">#D4AE61</color>
+
+    <!--public_dialog1的整体配色-->
+    <!--整体： 背景色  #f5f5f5-->
+    <color name="public_dialog1_generate">#f5f5f5</color>
+    <!--标题 ：背景色  #3880c0 -->
+    <color name="public_dialog1_title_bg">#3880c0</color>
+    <!--标题 ：文本颜色 ： #fff-->
+    <color name="public_dialog1_title_text">#fff</color>
+    <!--所有文本框-->
+    <color name="public_dialog1_text_all">#fff</color>
+    <!--左按钮 : #62b57c  -->
+    <color name="public_dialog1_left_button">#62b57c</color>
+    <!--右按钮 ：#3880c0-->
+    <color name="public_dialog_right_button">#3880c0</color>
+    <color name="webview_bg">#F8FAF9</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="video_bg">#010101</color>
+    <color name="video_titleBar_bg">#10578D</color>
+    <color name="root_bg">#F4F7F7</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#00ff00</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="login_out">#53A4FF</color>
+</resources>
